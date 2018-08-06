@@ -11,6 +11,14 @@ In the "source" folder you will find an example PSD for mobile devices. In this 
 - Create multiple commits (not only one big commit).
 - Push the changes after you complete your work.
 
+## Fast installation + setup (for mac + linux)
+
+```
+git clone https://github.com/Bergx2/css-eval && 
+cd css-eval && git checkout -b applicant-$(whoami) && 
+git push -u origin applicant-$(whoami)
+
+```
 
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 	<thead>
