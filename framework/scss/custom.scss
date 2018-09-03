@@ -19,15 +19,15 @@
         padding-top: rem(7);
         padding-bottom: rem(7);
     }
-    .league_line_text{
-        color: $base_color;
-        font-family: $base_font;
-        font-size: rem(18);
-        font-weight: 400;
-        text-transform: uppercase;
-        @media (max-width: 375px) {
-            font-size: rem(9); 
-        }
+}
+.league_line_text{
+    color: $base_color;
+    font-family: $base_font;
+    font-size: rem(18);
+    font-weight: 400;
+    text-transform: uppercase;
+    @media (max-width: 375px) {
+        font-size: rem(9); 
     }
 }
 .inline-svg-icon{
@@ -47,6 +47,36 @@
             width: 15px;
             height: 15px;
         }      
+    }
+    &.livestream,
+    &.tracker,
+    &.stats{
+        fill: #010101;
+        margin-right: 9px; 
+    }
+    &.livestream{
+        width: 52px;
+        height: 36px;
+        @media (max-width: 375px) {
+            width: 22px;
+            height: 16px;
+        } 
+    }
+    &.tracker{
+        width: 28px;
+        height: 36px;
+        @media (max-width: 375px) {
+            width: 26px;
+            height: 20px;
+        }
+    }
+    &.stats{
+        width: 40px;
+        height: 38px;
+        @media (max-width: 375px) {
+            width: 17px;
+            height: 20px;
+        }
     }
 }
 .teams_line{
@@ -105,4 +135,25 @@
     @media (max-width: 375px) { 
         font-size: rem(40);
     } 
+}
+.media_line{
+    align-items: center;
+    justify-content: space-around;
+    >div{
+        align-items: center;
+        flex: 1;
+        justify-content: center;
+        border-top: 1px solid $lighter_border_color;
+        border-bottom: 1px solid $lighter_border_color;
+        padding: rem(6) 0;
+        height: 48px;
+        @media (max-width: 375px) {
+            padding: rem(3) 0;
+            height: 24px;
+        }
+    }
+    .live_stream,
+    .live_tracker{
+        border-right: 1px solid $lighter_border_color;
+    }
 }
