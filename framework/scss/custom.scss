@@ -1,3 +1,30 @@
-.inline-svg-icon{
-    fill: yellow;
+@import "_variables";
+
+.league_line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: em(34);
+    padding: em(12) 0;
+    .league_line_text{
+        color: $base_color;
+        font-family: $base_font;
+        font-size: em(18);
+        font-weight: 400;
+        text-transform: uppercase;
+    }
 }
+.inline-svg-icon{
+    &.arrow_left_svg{
+        width: 16px;
+        height: 25px;       
+    }
+    &.star_svg{
+        width: 32px;
+        height: 32px;
+        fill: #b6b6b6;       
+    }
+}
+
+
+

@@ -1,4 +1,23 @@
-.inline-svg-icon {
-  fill: yellow; }
+.league_line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2.125em;
+  padding: 0.75em 0; }
+  .league_line .league_line_text {
+    color: #333;
+    font-family: "Asap Condensed", sans-serif;
+    font-size: 1.125em;
+    font-weight: 400;
+    text-transform: uppercase; }
+
+.inline-svg-icon.arrow_left_svg {
+  width: 16px;
+  height: 25px; }
+
+.inline-svg-icon.star_svg {
+  width: 32px;
+  height: 32px;
+  fill: #b6b6b6; }
 
 /*# sourceMappingURL=custom.css.map */
