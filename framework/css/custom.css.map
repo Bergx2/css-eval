@@ -1,0 +1,1 @@
+{"version":3,"file":"custom.css","sources":["custom.scss"],"sourcesContent":[".inline-svg-icon{\r\n    fill: yellow;\r\n}"],"names":[],"mappings":"AAAA,AAAA,gBAAgB,CAAA;EACZ,IAAI,EAAE,MAAM,GACf"}
