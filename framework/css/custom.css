@@ -5,27 +5,27 @@
   padding: 0; }
 
 .padding_aside {
-  padding: 0 1em; }
+  padding: 0 1rem; }
 
 .league_line {
   align-items: center;
   justify-content: space-between;
-  margin-top: 3.1875em;
-  padding-top: 0.75em;
-  padding-bottom: 0.75em; }
+  margin-top: 3.1875rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem; }
   @media (max-width: 375px) {
     .league_line {
-      padding-top: 0.4375em;
-      padding-bottom: 0.4375em; } }
+      padding-top: 0.4375rem;
+      padding-bottom: 0.4375rem; } }
   .league_line .league_line_text {
     color: #333;
     font-family: "Asap Condensed", sans-serif;
-    font-size: 1.125em;
+    font-size: 1.125rem;
     font-weight: 400;
     text-transform: uppercase; }
     @media (max-width: 375px) {
       .league_line .league_line_text {
-        font-size: 0.5625em; } }
+        font-size: 0.5625rem; } }
 
 .inline-svg-icon.arrow_left_svg {
   width: 16px;
@@ -48,17 +48,56 @@
   justify-content: space-around;
   border-top: 2px solid #b5b5b5;
   border-bottom: 2px solid #b5b5b5;
-  padding: 2.25em 0;
+  padding: 2.25rem 0;
   background-color: #c1c1c1; }
   @media (max-width: 375px) {
     .teams_line {
-      padding: 0.9375em 0; } }
+      padding: 0.9375rem 0; } }
   .teams_line .team {
     font-family: "Asap Condensed", sans-serif;
-    font-size: 1.5625em;
+    font-size: 1.5625rem;
     font-weight: 400; }
     @media (max-width: 375px) {
       .teams_line .team {
-        font-size: 0.8125em; } }
+        font-size: 0.8125rem; } }
+
+.score_line {
+  background-color: #1c1c1c;
+  justify-content: center;
+  align-items: center;
+  padding: 0.875rem 0px; }
+  @media (max-width: 375px) {
+    .score_line {
+      padding: 0.4375rem 0; } }
+
+.score {
+  color: #fff;
+  font-family: "Asap Condensed", sans-serif;
+  font-size: 6.9375rem;
+  font-weight: 400; }
+  @media (max-width: 375px) {
+    .score {
+      font-size: 3.4375rem; } }
+
+.scored {
+  font-size: 1.125rem; }
+  @media (max-width: 375px) {
+    .scored {
+      font-size: 0.625rem; } }
+
+.score_dots_wrap {
+  flex-direction: column;
+  padding: 0 2.75rem; }
+  @media (max-width: 375px) {
+    .score_dots_wrap {
+      padding: 0 1.75rem; } }
+
+.score_dots {
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 5px; }
+  @media (max-width: 375px) {
+    .score_dots {
+      font-size: 2.5rem; } }
 
 /*# sourceMappingURL=custom.css.map */
