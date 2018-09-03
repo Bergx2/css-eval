@@ -1,0 +1,8 @@
+$base_font:             'Asap Condensed', sans-serif;
+$base_color:              #333;
+
+$browser-context: 16; // Default
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em;
+}
