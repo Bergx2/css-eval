@@ -1,23 +1,64 @@
+.flex {
+  display: flex; }
+
+.ui-content {
+  padding: 0; }
+
+.padding_aside {
+  padding: 0 1em; }
+
 .league_line {
-  display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 2.125em;
-  padding: 0.75em 0; }
+  margin-top: 3.1875em;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em; }
+  @media (max-width: 375px) {
+    .league_line {
+      padding-top: 0.4375em;
+      padding-bottom: 0.4375em; } }
   .league_line .league_line_text {
     color: #333;
     font-family: "Asap Condensed", sans-serif;
     font-size: 1.125em;
     font-weight: 400;
     text-transform: uppercase; }
+    @media (max-width: 375px) {
+      .league_line .league_line_text {
+        font-size: 0.5625em; } }
 
 .inline-svg-icon.arrow_left_svg {
   width: 16px;
   height: 25px; }
+  @media (max-width: 375px) {
+    .inline-svg-icon.arrow_left_svg {
+      width: 8px;
+      height: 13px; } }
 
 .inline-svg-icon.star_svg {
   width: 32px;
   height: 32px;
   fill: #b6b6b6; }
+  @media (max-width: 375px) {
+    .inline-svg-icon.star_svg {
+      width: 15px;
+      height: 15px; } }
+
+.teams_line {
+  justify-content: space-around;
+  border-top: 2px solid #b5b5b5;
+  border-bottom: 2px solid #b5b5b5;
+  padding: 2.25em 0;
+  background-color: #c1c1c1; }
+  @media (max-width: 375px) {
+    .teams_line {
+      padding: 0.9375em 0; } }
+  .teams_line .team {
+    font-family: "Asap Condensed", sans-serif;
+    font-size: 1.5625em;
+    font-weight: 400; }
+    @media (max-width: 375px) {
+      .teams_line .team {
+        font-size: 0.8125em; } }
 
 /*# sourceMappingURL=custom.css.map */
