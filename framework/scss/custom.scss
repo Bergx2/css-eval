@@ -6,6 +6,14 @@
 .ui-content{
     padding: 0;
 }
+.ui-page-theme-a{
+    a{
+        &.ui-link{
+            color: #1c1c1c;
+            text-decoration: none;
+        }
+    }
+}
 .padding_aside{
     padding: 0 rem(16);
 }
@@ -139,7 +147,7 @@
 .media_line{
     align-items: center;
     justify-content: space-around;
-    >div{
+    >a{
         align-items: center;
         flex: 1;
         justify-content: center;
@@ -155,5 +163,55 @@
     .live_stream,
     .live_tracker{
         border-right: 1px solid $lighter_border_color;
+    }
+}
+.table_row{
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    &:nth-child(odd){
+        background-color: #eee;
+    }
+}
+.table_item{
+    flex: 1;
+    padding-left: 13px;
+    .ui-btn{
+        padding: 0;
+        margin: 0;
+        box-shadow: none;
+        justify-content: space-around;
+        background-image: linear-gradient(to top, #e1e1e1 0%, #fefefe 100%);
+        border: 1px solid #7c7c7c;
+        border-radius: 4px;
+        height: 52px;
+        @media (max-width: 375px) {
+            height: 28px;
+        }
+    }
+    .side{
+        color: #828282;
+        font-weight: 400;
+    }
+    .koef{
+        color: #1c1c1c;
+        font-weight: 700;
+    }
+    .side,
+    .koef{
+        font-size: rem(25);
+        @media (max-width: 375px) {
+            font-size: rem(14);
+        }
+    }
+}
+.table_item_text{
+    color: #8c8c8c;
+    font-family: $base_font;
+    font-size: rem(20);
+    font-weight: 400;
+    @media (max-width: 375px) {
+        font-size: rem(12);
     }
 }
