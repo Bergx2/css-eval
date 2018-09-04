@@ -1,0 +1,201 @@
+.flex {
+  display: flex; }
+
+.ui-content {
+  padding: 0; }
+
+.ui-page-theme-a a.ui-link {
+  color: #1c1c1c;
+  text-decoration: none; }
+
+.padding_aside {
+  padding: 0 1rem; }
+
+.league_line {
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.1875rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem; }
+  @media (max-width: 375px) {
+    .league_line {
+      padding-top: 0.4375rem;
+      padding-bottom: 0.4375rem; } }
+
+.league_line_text {
+  color: #333;
+  font-family: "Asap Condensed", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-transform: uppercase; }
+  @media (max-width: 375px) {
+    .league_line_text {
+      font-size: 0.5625rem; } }
+
+.inline-svg-icon.arrow_left_svg {
+  width: 16px;
+  height: 25px; }
+  @media (max-width: 375px) {
+    .inline-svg-icon.arrow_left_svg {
+      width: 8px;
+      height: 13px; } }
+
+.inline-svg-icon.star_svg {
+  width: 32px;
+  height: 32px;
+  fill: #b6b6b6; }
+  @media (max-width: 375px) {
+    .inline-svg-icon.star_svg {
+      width: 15px;
+      height: 15px; } }
+
+.inline-svg-icon.livestream, .inline-svg-icon.tracker, .inline-svg-icon.stats {
+  fill: #010101;
+  margin-right: 9px; }
+
+.inline-svg-icon.livestream {
+  width: 52px;
+  height: 36px; }
+  @media (max-width: 375px) {
+    .inline-svg-icon.livestream {
+      width: 22px;
+      height: 16px; } }
+
+.inline-svg-icon.tracker {
+  width: 28px;
+  height: 36px; }
+  @media (max-width: 375px) {
+    .inline-svg-icon.tracker {
+      width: 26px;
+      height: 20px; } }
+
+.inline-svg-icon.stats {
+  width: 40px;
+  height: 38px; }
+  @media (max-width: 375px) {
+    .inline-svg-icon.stats {
+      width: 17px;
+      height: 20px; } }
+
+.teams_line {
+  justify-content: space-around;
+  border-top: 2px solid #b5b5b5;
+  border-bottom: 2px solid #b5b5b5;
+  padding: 2.25rem 0;
+  background-color: #c1c1c1; }
+  @media (max-width: 375px) {
+    .teams_line {
+      padding: 0.9375rem 0; } }
+  .teams_line .team {
+    font-family: "Asap Condensed", sans-serif;
+    font-size: 1.5625rem;
+    font-weight: 400; }
+    @media (max-width: 375px) {
+      .teams_line .team {
+        font-size: 0.8125rem; } }
+
+.score_line {
+  background-color: #1c1c1c;
+  justify-content: center;
+  align-items: center;
+  padding: 0.875rem 0px; }
+  @media (max-width: 375px) {
+    .score_line {
+      padding: 0.4375rem 0; } }
+
+.score {
+  color: #fff;
+  font-family: "Asap Condensed", sans-serif;
+  font-size: 6.9375rem;
+  font-weight: 400; }
+  @media (max-width: 375px) {
+    .score {
+      font-size: 3.4375rem; } }
+
+.scored {
+  font-size: 1.125rem; }
+  @media (max-width: 375px) {
+    .scored {
+      font-size: 0.625rem; } }
+
+.score_dots_wrap {
+  flex-direction: column;
+  padding: 0 2.75rem; }
+  @media (max-width: 375px) {
+    .score_dots_wrap {
+      padding: 0 1.75rem; } }
+
+.score_dots {
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 5px; }
+  @media (max-width: 375px) {
+    .score_dots {
+      font-size: 2.5rem; } }
+
+.media_line {
+  align-items: center;
+  justify-content: space-around; }
+  .media_line > a {
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    border-top: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+    padding: 0.375rem 0;
+    height: 48px; }
+    @media (max-width: 375px) {
+      .media_line > a {
+        padding: 0.1875rem 0;
+        height: 24px; } }
+  .media_line .live_stream,
+  .media_line .live_tracker {
+    border-right: 1px solid #d5d5d5; }
+
+.table_row {
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-bottom: 12px; }
+  .table_row:nth-child(odd) {
+    background-color: #eee; }
+
+.table_item {
+  flex: 1;
+  padding-left: 13px; }
+  .table_item .ui-btn {
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    justify-content: space-around;
+    background-image: linear-gradient(to top, #e1e1e1 0%, #fefefe 100%);
+    border: 1px solid #7c7c7c;
+    border-radius: 4px;
+    height: 52px; }
+    @media (max-width: 375px) {
+      .table_item .ui-btn {
+        height: 28px; } }
+  .table_item .side {
+    color: #828282;
+    font-weight: 400; }
+  .table_item .koef {
+    color: #1c1c1c;
+    font-weight: 700; }
+  .table_item .side,
+  .table_item .koef {
+    font-size: 1.5625rem; }
+    @media (max-width: 375px) {
+      .table_item .side,
+      .table_item .koef {
+        font-size: 0.875rem; } }
+
+.table_item_text {
+  color: #8c8c8c;
+  font-family: "Asap Condensed", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400; }
+  @media (max-width: 375px) {
+    .table_item_text {
+      font-size: 0.75rem; } }
+
+/*# sourceMappingURL=custom.css.map */

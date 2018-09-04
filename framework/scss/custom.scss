@@ -1,0 +1,217 @@
+@import "_variables";
+
+.flex{
+    display: flex;
+}
+.ui-content{
+    padding: 0;
+}
+.ui-page-theme-a{
+    a{
+        &.ui-link{
+            color: #1c1c1c;
+            text-decoration: none;
+        }
+    }
+}
+.padding_aside{
+    padding: 0 rem(16);
+}
+.league_line{
+    align-items: center;
+    justify-content: space-between;
+    margin-top: rem(51);
+    padding-top: rem(12);
+    padding-bottom: rem(12);
+    @media (max-width: 375px) {
+        padding-top: rem(7);
+        padding-bottom: rem(7);
+    }
+}
+.league_line_text{
+    color: $base_color;
+    font-family: $base_font;
+    font-size: rem(18);
+    font-weight: 400;
+    text-transform: uppercase;
+    @media (max-width: 375px) {
+        font-size: rem(9); 
+    }
+}
+.inline-svg-icon{
+    &.arrow_left_svg{
+        width: 16px;
+        height: 25px;
+        @media (max-width: 375px) {
+            width: 8px;
+            height: 13px;
+        }       
+    }
+    &.star_svg{
+        width: 32px;
+        height: 32px;
+        fill: #b6b6b6; 
+        @media (max-width: 375px) {
+            width: 15px;
+            height: 15px;
+        }      
+    }
+    &.livestream,
+    &.tracker,
+    &.stats{
+        fill: #010101;
+        margin-right: 9px; 
+    }
+    &.livestream{
+        width: 52px;
+        height: 36px;
+        @media (max-width: 375px) {
+            width: 22px;
+            height: 16px;
+        } 
+    }
+    &.tracker{
+        width: 28px;
+        height: 36px;
+        @media (max-width: 375px) {
+            width: 26px;
+            height: 20px;
+        }
+    }
+    &.stats{
+        width: 40px;
+        height: 38px;
+        @media (max-width: 375px) {
+            width: 17px;
+            height: 20px;
+        }
+    }
+}
+.teams_line{
+    justify-content: space-around;
+    border-top: 2px solid $border_color;
+    border-bottom: 2px solid $border_color;
+    padding: rem(36) 0;
+    background-color: #c1c1c1;
+    @media (max-width: 375px) {
+        padding: rem(15) 0; 
+    }
+    .team{
+        font-family: $base_font;
+        font-size: rem(25);
+        font-weight: 400;
+        @media (max-width: 375px) {
+            font-size: rem(13); 
+        }
+    }
+}
+.score_line{
+    background-color: #1c1c1c;
+    justify-content: center;
+    align-items: center;
+    padding: rem(14) 0px;
+    @media (max-width: 375px) {
+        padding: rem(7) 0;
+    }
+}
+.score{
+    color: #fff;
+    font-family: $base_font;
+    font-size: rem(111);
+    font-weight: 400;
+    @media (max-width: 375px) { 
+        font-size: rem(55);
+    }
+}
+.scored{
+    font-size: rem(18);
+    @media (max-width: 375px) { 
+        font-size: rem(10);
+    }
+}
+.score_dots_wrap{
+    flex-direction: column;
+    padding: 0 rem(44);
+    @media (max-width: 375px) { 
+        padding: 0 rem(28);
+    }  
+}
+.score_dots{
+    text-align: center;
+    font-size: rem(80);
+    margin-bottom: 5px;
+    @media (max-width: 375px) { 
+        font-size: rem(40);
+    } 
+}
+.media_line{
+    align-items: center;
+    justify-content: space-around;
+    >a{
+        align-items: center;
+        flex: 1;
+        justify-content: center;
+        border-top: 1px solid $lighter_border_color;
+        border-bottom: 1px solid $lighter_border_color;
+        padding: rem(6) 0;
+        height: 48px;
+        @media (max-width: 375px) {
+            padding: rem(3) 0;
+            height: 24px;
+        }
+    }
+    .live_stream,
+    .live_tracker{
+        border-right: 1px solid $lighter_border_color;
+    }
+}
+.table_row{
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    &:nth-child(odd){
+        background-color: #eee;
+    }
+}
+.table_item{
+    flex: 1;
+    padding-left: 13px;
+    .ui-btn{
+        padding: 0;
+        margin: 0;
+        box-shadow: none;
+        justify-content: space-around;
+        background-image: linear-gradient(to top, #e1e1e1 0%, #fefefe 100%);
+        border: 1px solid #7c7c7c;
+        border-radius: 4px;
+        height: 52px;
+        @media (max-width: 375px) {
+            height: 28px;
+        }
+    }
+    .side{
+        color: #828282;
+        font-weight: 400;
+    }
+    .koef{
+        color: #1c1c1c;
+        font-weight: 700;
+    }
+    .side,
+    .koef{
+        font-size: rem(25);
+        @media (max-width: 375px) {
+            font-size: rem(14);
+        }
+    }
+}
+.table_item_text{
+    color: #8c8c8c;
+    font-family: $base_font;
+    font-size: rem(20);
+    font-weight: 400;
+    @media (max-width: 375px) {
+        font-size: rem(12);
+    }
+}

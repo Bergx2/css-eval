@@ -1,0 +1,11 @@
+$base_font:             'Asap Condensed', sans-serif;
+$base_color:              #333;
+$border_color:             #b5b5b5;
+$lighter_border_color:     #d5d5d5;
+
+
+$browser-context: 16; // Default
+
+@function rem($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}rem;
+}
